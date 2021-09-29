@@ -1,12 +1,11 @@
-console.log("Hello world!");
+let myArray = ["hello", "everyone"];
 
-const msg = "this is a message";
+console.log(myArray.length);
 
-console.log(msg);
+myArray.push("my", "name", "is");
 
-console.log("Rachel");
-console.log("Kendal");
-console.log("London");
-console.log("pisces");
+myArray.shift();
 
-console.log(`%c` + msg, `color: orange; background-color: black; font-family: fantasy; padding: 10px; font-weight: bold;`)
+for(i=0; i<myArray.length; i++) {
+    console.log(myArray[i])
+}
