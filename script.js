@@ -1,12 +1,68 @@
-console.log("Hello world!");
+let a = 100;
 
-const msg = "this is a message";
+while (a < 200) {
+    console.log(a);
+    a++;
+}
 
-console.log(msg);
+a = 100;
 
-console.log("Rachel");
-console.log("Kendal");
-console.log("London");
-console.log("pisces");
+while (a <= 200) {
+    if (a%2 == 0) {
+        console.log("-");
+    } else {
+        console.log("*");
+    }
+    a++;
+}
 
-console.log(`%c` + msg, `color: orange; background-color: black; font-family: fantasy; padding: 10px; font-weight: bold;`)
+function numbers() {
+    let number = 1;
+    let count;
+    while (number <= 10) {
+        for(count=0; count<10; count++) {
+            console.log(number);
+        }
+        number++;
+    }
+}
+
+numbers()
+
+a = 100
+
+for(a=100; a<200; a++) {
+    console.log(a);
+}
+
+for(a=100; a<=200; a++) {
+    if (a%2 == 0) {
+        console.log("-");
+    } else {
+        console.log("*");
+    }
+}
+
+let weekday = "Friday";
+
+switch(weekday) {
+    case "Monday":
+        console.log("M");
+    case "Tuesday":
+        console.log("TU");
+    case "Wednesday":
+        console.log("W");
+    case "Thursday":
+        console.log("TH");
+    case "Friday":
+        console.log("F");
+        break;
+    case "Saturday":
+        console.log("SA");
+        break;
+    case "Sunday":
+        console.log("SU");
+        break;
+    default:
+        console.log("invalid")
+}
