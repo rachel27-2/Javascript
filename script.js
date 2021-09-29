@@ -1,12 +1,5 @@
-console.log("Hello world!");
+let totalMoney = 4000;
+let moneyPaidSoFar = 2348;
+let totalLeftToPay = totalMoney - moneyPaidSoFar;
 
-const msg = "this is a message";
-
-console.log(msg);
-
-console.log("Rachel");
-console.log("Kendal");
-console.log("London");
-console.log("pisces");
-
-console.log(`%c` + msg, `color: orange; background-color: black; font-family: fantasy; padding: 10px; font-weight: bold;`)
+console.log(`The total bill is £${totalMoney}. The remaining amount of money to be paid is £${totalLeftToPay}.`)
