@@ -1,12 +1,11 @@
-console.log("Hello world!");
+function subtract(num1, num2) {
+    return num1 - num2;
+}
 
-const msg = "this is a message";
+welcome = (name, age) => {
+    return `my name is ${name} & I am ${age} years old`;
+}
 
-console.log(msg);
-
-console.log("Rachel");
-console.log("Kendal");
-console.log("London");
-console.log("pisces");
-
-console.log(`%c` + msg, `color: orange; background-color: black; font-family: fantasy; padding: 10px; font-weight: bold;`)
+powerUp = (num1, num2) => {
+    return Math.pow(num1, num2);
+}
